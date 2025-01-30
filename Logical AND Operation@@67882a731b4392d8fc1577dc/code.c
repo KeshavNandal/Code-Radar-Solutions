@@ -1,9 +1,10 @@
-#include <stdio.h>
-#inlcude <stdbool.h>
+#include<stdio.h>
 int main()
 {
-    int x,y;
-    scanf("%d%d",&x,&y);
-    bool z=x&&y;
-    printf(z?"True":"False");
+ int x,y;
+ scanf("%d%d",&x,&y);
+ if(x&&y>0)
+ printf("True");
+ else
+ printf("False")   
 }
