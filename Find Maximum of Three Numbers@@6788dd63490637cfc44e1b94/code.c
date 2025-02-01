@@ -8,5 +8,5 @@ printf("%d",z);
 else if(x>z&&x>y)
 printf("%d",x);
 else 
-pritnf("%d",y);
+printf("%d",y);
 }
