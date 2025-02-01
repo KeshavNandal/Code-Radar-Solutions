@@ -7,4 +7,8 @@ int main()
     printf("Vowel");
     else if(ch>'a'&&ch<'z'&&ch!='a','e','i','o','u')
     printf("Consonant");
+    else if(ch>=0&&ch<10)
+    printf("Digit");
+    else
+    printf("Special Character");
 }
