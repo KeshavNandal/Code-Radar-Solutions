@@ -15,7 +15,7 @@ int main()
             
         }
         
-    else
+    else if(x%i!=0)
     printf("Prime")    ;
     
      
