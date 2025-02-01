@@ -8,15 +8,15 @@ int main()
         printf("Prime");
     }
     for(int i=2;i<=x/2;i++)
-    
+    {
         if(x%i==0)
         {
             printf("Not Prime");
             
         }
         
-    else if(x%i!=0)
-    printf("Prime")    ;
-    
+      else if(x%i!=0)
+        printf("Prime")    ;
+    }
      
 }
