@@ -13,7 +13,7 @@ int main()
         if(x%i==0)
         {
             printf("Not Prime");
-            exit();
+            exit(0);
             
         }
     
