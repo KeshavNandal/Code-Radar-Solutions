@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<process.h>
 int main()
 {
     int x;
@@ -12,10 +13,12 @@ int main()
         if(x%i==0)
         {
             printf("Not Prime");
+            exit()
             
         }
     
       
     }
+    printf("Prime");
      
 }
