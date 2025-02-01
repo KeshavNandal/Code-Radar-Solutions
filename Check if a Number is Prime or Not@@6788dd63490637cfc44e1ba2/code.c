@@ -16,7 +16,7 @@ int main()
         }
         
     else
-    printf("prime")    
+    printf("prime")    ;
     
      
 }
