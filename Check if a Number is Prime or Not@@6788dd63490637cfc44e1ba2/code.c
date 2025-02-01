@@ -14,9 +14,9 @@ int main()
             printf("Not Prime");
             
         }
-        
-      else if(x%i!=0)
+    }   
+      else
         printf("Prime")    ;
-    }
+    
      
 }
