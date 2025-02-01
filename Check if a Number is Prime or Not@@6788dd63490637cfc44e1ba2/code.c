@@ -13,8 +13,6 @@ int main()
         {
             printf("Not Prime");
             break;
-            else
-            printf("prime");
         }
         
         
