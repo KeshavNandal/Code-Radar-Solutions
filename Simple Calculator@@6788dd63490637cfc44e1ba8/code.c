@@ -4,8 +4,8 @@ int main()
     int x,y;
     char ch;
     scanf("%d",&x);
-    scanf("%d",&y);
-    scanf("%c", &ch);
+    scanf("%d", &y);
+    scanf(" %c", &ch);
     switch(ch)
     {
         case '-' :
