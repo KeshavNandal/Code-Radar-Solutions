@@ -6,6 +6,6 @@ int main()
     switch(x)
     {
         case 1:
-        printf(31);
+        printf("31");
     }
 }
