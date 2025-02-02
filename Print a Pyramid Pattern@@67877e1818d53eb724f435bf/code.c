@@ -11,11 +11,11 @@ int main()
         }
         for(int j=1;j<=1;j++)
         {
-            printf("%d",j);
+            printf("*");
         }
         for(int j=i;j>0;j--)
         {
-            printf("%d",j);
+            printf("*");
         }
         printf("\n");
     }
