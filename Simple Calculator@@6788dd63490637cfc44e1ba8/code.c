@@ -3,8 +3,9 @@ int main()
 {
     int x,y;
     char ch;
-    scanf("%d%d",&x,&y);
-    scanf("%c", &ch);
+    scanf("%d" &x);
+    scanf("%d", &y);
+    scanf(" %c", &ch);
     switch(ch)
     {
         case '-' :
