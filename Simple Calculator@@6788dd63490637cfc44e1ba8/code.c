@@ -4,8 +4,6 @@ int main()
     int x,y;
     char ch;
     scanf("%d" &x);
-    scanf("%d", &y);
-    getchar();
     scanf(" %c", &ch);
     switch(ch)
     {
@@ -19,7 +17,7 @@ int main()
             printf("%d",x*y);
             break;
         case '/' :
-            printf("%d",x/y);
+            if(y != 0) printf("%d",x/y);
             break;
         default :
             printf("error");
