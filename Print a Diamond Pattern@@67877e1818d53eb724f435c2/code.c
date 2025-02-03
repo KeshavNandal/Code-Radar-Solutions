@@ -14,7 +14,7 @@ int main()
         }
         else if(i>x)
         {
-            for(int j=1;j<=x-1;j++)
+            for(int j=x-1;j>x;j++)
             printf(" ");
         }
         }
