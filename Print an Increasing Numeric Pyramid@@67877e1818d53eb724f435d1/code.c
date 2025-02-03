@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-int x;
-scanf("%d",&x);
-for (int i =0 ;i<x;i++)
-{
+ int x;
+ scanf("%d",&x);
+ for (int i =0 ;i<x;i++)
+ {
     for(int j=1; j<=x-i-1)
     {
         printf(" ");
@@ -14,5 +14,5 @@ for (int i =0 ;i<x;i++)
         printf("%d ",j);
     }
     printf("\n");
-}
+ }
 }
