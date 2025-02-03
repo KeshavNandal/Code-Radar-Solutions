@@ -3,28 +3,16 @@ int main()
 {
     int x;
     scanf("%d",&x);
-    for(int i =1;i<=x+(x-1);i++)
+    for(int i=1;i<=x;i++)
     {
-        for (int y =1;y<=i;y++)
+        for(int j=1;j<=x-i-1;j++)
         {
-        if(i<=x)
-        {
-            for(int j=1;j<=x-i-1;j++)
             printf(" ");
         }
-        else if(i>x)
+        for(int j=i;j>0;j--)
         {
-            for(int j=x-1;j>x;j++)
-            printf(" ");
-        }
-        }
-        for( int y=1;y<=i;y++)
-        {
-            printf("*");
+            printf("%d",j);
         }
         printf("\n");
-
-
-
     }
 }
