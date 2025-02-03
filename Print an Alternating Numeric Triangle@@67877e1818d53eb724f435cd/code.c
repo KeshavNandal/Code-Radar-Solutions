@@ -10,7 +10,7 @@ int main()
         {
           if(i%2==0)
           {
-            if(J%2==0)
+            if(j%2==0)
             printf("1 ");
             else 
             printf("0 ");
