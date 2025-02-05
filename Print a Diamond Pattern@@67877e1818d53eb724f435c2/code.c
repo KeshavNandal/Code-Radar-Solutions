@@ -18,16 +18,5 @@ int main()
         printf("\n");
     }
 
-      for(int z=x-2;z>=0;z--)
-       {
-          for(int j=1 ; j<=x-1-z ; j++)
-          {
-              printf(" ");
-          }
-          for(int j=0 ; j<2*z+1 ; j++)
-          {
-              pritnf("*");
-          }
-          printf("\n");
-      }
+     
 }
