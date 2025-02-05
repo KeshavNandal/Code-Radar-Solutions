@@ -28,6 +28,6 @@ int main()
           {
               pritnf("*");
           }
-          printf("\n");
+          printf("/n");
       }
 }
