@@ -18,13 +18,13 @@ int main()
         printf("\n");
     }
 
-      for(int i=x-2;i>=0;i--)
+      for(int z=x-2;z>=0;z--)
        {
-          for(int j=1 ; j<=x-1-i ; j++)
+          for(int j=1 ; j<=x-1-z ; j++)
           {
               printf(" ");
           }
-          for(int j=0 ; j<2*i+1 ; j++)
+          for(int j=0 ; j<2*z+1 ; j++)
           {
               pritnf("*");
           }
