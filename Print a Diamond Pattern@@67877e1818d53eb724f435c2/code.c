@@ -24,7 +24,7 @@ int main()
          {
              printf(" ");
          }
-         for(int j=0 ; j<i*2+1 ; j++)
+         for(int j=0 ; j<2*i+1 ; j++)
          {
              pritnf("*");
          }
