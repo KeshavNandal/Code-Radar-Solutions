@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int x;
+    int x,y;
     scanf("%d",&x);
-    printf("%d",x!);
+    y=!x;
+    printf("%d",y);
 }
