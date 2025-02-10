@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-struct stduent
+struct student
 {
     int roll;
     char name[40];
