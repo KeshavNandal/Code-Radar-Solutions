@@ -1,24 +1,28 @@
 #include <stdio.h>
-struct void Student(int name,int roll,char namee[20],float marks);
+#include<string.h>
+struct stduent
+{
+    int roll;
+    char name[40];
+    float marks;
+};
+
+void display(struct student student)
+{
+    printf("Roll number: %d, Name: %s, Marks: %.2f",roll,name,marks);
+}
 int main()
 {
-    int n,a,b;
-    char nami[20];
-    float c;
-    for(i=0;i<n;i++)
+    int n;
+    scanf("%d",&n);
+    for (i=0;i<n;i++)
     {
-        scanf("%d%d",&n,&a);
-        scanf("%s",&nami);
-        scanf("%f",&c);
-        printf(Student);
+        student student1;
+        student1.roll;
+        student1.name;
+        student1.marks;
+        scanf("%d%s%f",&stduent1.roll,&student1.name,&student1.marks);
+        display();
     }
-
-}
-void Student(int name,int roll,char name[20],float marks)
-{
-    int x;
-    int y;
-    char nam[20];
-    float z;
-    printf("Roll number: %d, Name: %s, Marks: %.2f\n",x,y,nam,z);
+    
 }
