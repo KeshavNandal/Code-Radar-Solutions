@@ -21,7 +21,7 @@ int main()
         student1.roll;
         student1.name;
         student1.marks;
-        scanf("%d%s%f",&stduent1.roll,&student1.name,&student1.marks);
+        scanf("%d%s%f",&student1.roll,&student1.name,&student1.marks);
         display();
     }
     
