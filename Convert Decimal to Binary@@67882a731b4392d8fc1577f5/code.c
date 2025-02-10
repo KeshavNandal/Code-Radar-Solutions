@@ -19,4 +19,6 @@ int main()
             printf("1");
         }
     }
+    if(x==0)
+    printf("0");
 }
