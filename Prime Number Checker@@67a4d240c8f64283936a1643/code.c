@@ -1,4 +1,4 @@
-int isPrime(int num)
+int isPrime(int x)
 {
     if(num==2)
     {
