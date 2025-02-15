@@ -4,6 +4,10 @@ int isPrime(int x)
     {
         return 1;
     }
+    else if(x==1)
+    {
+        return 0;
+    }
     for(int i=2;i<=x/2;i++)
     {
         if(x%i==0)
