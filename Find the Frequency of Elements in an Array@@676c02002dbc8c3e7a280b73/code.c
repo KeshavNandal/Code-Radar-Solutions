@@ -18,7 +18,7 @@ int main()
              count++;
             }
         }
-        printf("%d %d",arr[j],count);
+        printf("%d %d\n",arr[j],count);
     }
 
 
