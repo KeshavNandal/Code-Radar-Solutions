@@ -17,7 +17,7 @@ int main()
             x=arr[j];
         }
     }
-    for(int k=0;k<n;k++)
+    for(int k=1;k<n;k++)
     {
         if(y<arr[k]&&arr[k]!=x)
         {
