@@ -10,7 +10,7 @@ int main()
  }
  x=arr[0];
  y=arr[0];
- for(int j=1;j<n:j++)
+ for(int j=1;j<n;j++)
  {
     if(x<arr[j])
     {
