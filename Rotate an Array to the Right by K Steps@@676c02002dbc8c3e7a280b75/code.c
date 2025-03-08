@@ -22,6 +22,6 @@ int main()
     }
     for(int k=0;k<n;k++)
     {
-        printf("%d "arr1[k]);
+        printf("%d ",arr1[k]);
     }
 }
