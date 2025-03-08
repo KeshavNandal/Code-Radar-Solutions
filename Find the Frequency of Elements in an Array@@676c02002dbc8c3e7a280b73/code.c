@@ -20,7 +20,7 @@ int main()
             if(arr[j]==arr[f])
             {
              count++;
-             printed[f]==1;
+             printed[f]=1;
             }
         }
         printf("%d %d\n",arr[j],count);
