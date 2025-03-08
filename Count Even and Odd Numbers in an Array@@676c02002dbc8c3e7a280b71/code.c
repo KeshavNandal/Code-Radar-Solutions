@@ -13,7 +13,7 @@ int main()
         {
             evencount++;
         }
-        elseif(arr[j]%2!=0)
+        else if(arr[j]%2!=0)
         {
             oddcount++;
         }
