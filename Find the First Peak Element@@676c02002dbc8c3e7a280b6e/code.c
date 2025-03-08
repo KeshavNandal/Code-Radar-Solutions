@@ -20,5 +20,5 @@ int main()
             continue;
         }
     }
-    return -1;
+    printf("-1");
 }
