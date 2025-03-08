@@ -19,7 +19,7 @@ int main()
     }
     for(int k=0;k<n;k++)
     {
-        if(y<arr[k]&&y!=x)
+        if(y<arr[k]&&arr[k]!=x)
         {
             y=arr[k];
         }
