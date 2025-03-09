@@ -19,7 +19,7 @@ int main()
             if (arr[j]%k==0)
             {
                 count++;
-               continue;
+               
             }
         }
     }
