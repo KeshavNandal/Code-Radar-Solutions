@@ -15,7 +15,7 @@ int main()
         {
             rem=arr[j]%10;
             count =count+rem;
-            arr[j]=arr[j]/2;
+            arr[j]=arr[j]/10;
 
         }
         printf("%d ",count);
