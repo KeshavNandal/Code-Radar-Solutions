@@ -11,6 +11,10 @@ int main()
     for(int j=0;j<n;j++)
     {
         int count=0,rem=0;
+        if(arr[j]<0)
+        {
+            arr[j]=arr[j]*-1;
+        }
         while(arr[j]!=0)
         {
             rem=arr[j]%10;
