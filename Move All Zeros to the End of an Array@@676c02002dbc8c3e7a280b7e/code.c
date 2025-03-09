@@ -13,7 +13,10 @@ int main()
     {
         if(arr[j]==0)
         {
-            swap(arr[j],arr[end]);
+            int temp=arr[j];
+            arr[end]=arr[j];
+            arr[j]=arr[end];
+
             end--;
         }
     }
