@@ -2,8 +2,8 @@
 int main()
 {
     int n;
-    int start=0,last=n-1;
     scanf("%d",&n);
+    int start=0,last=n-1;
     int arr[n];
     for(int i=0;i<n;i++)
     {
