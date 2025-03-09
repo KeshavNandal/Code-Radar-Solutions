@@ -14,7 +14,7 @@ int main()
         if(arr[start]==arr[last])
         {
             start++;
-            end--;
+            last--;
             continue;
         }
         else
