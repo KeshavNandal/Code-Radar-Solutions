@@ -15,7 +15,7 @@ int main()
         {
             int temp=arr[j];
             arr[end]=arr[j];
-            arr[j]=arr[end];
+            arr[j]=arr[temp];
 
             end--;
         }
