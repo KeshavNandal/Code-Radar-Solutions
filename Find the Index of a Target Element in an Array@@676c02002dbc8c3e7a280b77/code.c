@@ -12,15 +12,12 @@ int main()
     for(int j=0;j<n;j++)
     {
         if(arr[j]==m)
-        {count++;}
+        {
+            printf("%d",j);
+            return 0;
+        }
+        
     }
-    if (count==0)
-    {
-        printf("-1");
-    }
-    else 
-    {
-        printf("%d",count);
-    }
-
+    printf("-1");
+  
 }
