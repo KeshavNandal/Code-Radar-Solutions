@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int arr[n],count=1;
+    int arr[n],count=1,total=0,check=0;
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
@@ -21,11 +21,7 @@ int main()
     }
     for(int l=0;l<n;l++)
     {
-        if(arr[l+1]==arr[l]+1)
-        {
-            count++;
-        }
-        else{count=1;}
+        printf("%d",arr[l]);
     }
-    printf("%d",count);
+    
 }
