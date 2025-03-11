@@ -19,7 +19,7 @@ int main()
             else if(arr[j]%divi==0)
             {
                 count++;
-                break;
+                continue;
             }
         }
     }
