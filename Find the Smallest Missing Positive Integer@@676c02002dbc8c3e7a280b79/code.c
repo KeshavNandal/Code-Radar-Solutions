@@ -19,6 +19,17 @@ int main()
             
         }
     }   
+    for(int m=0;m<n;m++)
+    {
+        if(arr[m==1])
+        {
+            check =1;
+        }
+    }
+    if(check!=1)
+    {printf("1");
+     return 0;
+    }
     for(int l=0;l<n;l++)
     {
         if(arr[l+1]==arr[l]+1&&arr[l]+1!=0)
