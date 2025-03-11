@@ -21,7 +21,7 @@ int main()
     }   
     for(int l=0;l<n;l++)
     {
-        if(arr[l+1]==arr[l]+1)
+        if(arr[l+1]==arr[l]+1&&arr[l]+1!=0)
         {
             continue;
         }
