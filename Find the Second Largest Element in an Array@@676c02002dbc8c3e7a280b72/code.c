@@ -2,6 +2,7 @@
 int main()
 {
     int x = 0;
+    int n;
     scanf("%d",&n);
     int arr[n],num=n-2;
     for(int i = 0; i < n; i++)
