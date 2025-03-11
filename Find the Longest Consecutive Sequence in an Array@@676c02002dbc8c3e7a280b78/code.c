@@ -8,9 +8,9 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int j=0;k<n;k++)
+    for(int j=0;j<n;j++)
     {
-        for(int k=i+1;i<n-1;k++)
+        for(int k=j+1;k<n-1;k++)
         if(arr[j]>arr[k])
         {
             int temp =arr[j];
