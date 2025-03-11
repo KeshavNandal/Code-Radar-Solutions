@@ -12,9 +12,13 @@ int main()
     {
         while(divi<arr[j]/2)
         {
-            if(divi%arr[j]==0)
+            if(divi%arr[j]!=0)
             {
-                count++;
+                divi++;
+            }
+            else 
+            {
+                cout++;
                 break;
             }
         }
