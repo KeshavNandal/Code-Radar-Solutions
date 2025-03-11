@@ -28,7 +28,7 @@ int main()
         else 
         {
            
-            if(arr[l+1]==0)
+            if(arr[l]+1==0)
             {
                 continue;
             }
