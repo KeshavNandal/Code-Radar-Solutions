@@ -27,9 +27,14 @@ int main()
         }
         else 
         {
-            if(arr[l+1]>0)
+           
+            if(arr[l+1]==0)
+            {
+                continue;
+            }
+             else if(arr[l+1]>0){
             printf("%d",arr[l+1]);
-            return 0;
+            return 0;}
         }
     }
     printf("%d",arr[n-1]+1);
