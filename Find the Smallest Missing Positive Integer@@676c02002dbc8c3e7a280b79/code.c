@@ -37,5 +37,8 @@ int main()
             return 0;}
         }
     }
+    if(arr[n-1]>0)
     printf("%d",arr[n-1]+1);
+    else
+    printf("1");
 }       
