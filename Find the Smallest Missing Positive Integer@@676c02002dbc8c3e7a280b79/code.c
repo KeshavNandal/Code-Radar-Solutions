@@ -19,4 +19,18 @@ int main()
             
         }
     }   
+    for(int l=0;l<n;l++)
+    {
+        if(arr[l+1]==arr[l]+1)
+        {
+            continue;
+        }
+        else 
+        {
+            if(arr[l+1]>0)
+            printf("%d"arr[l+1]);
+            return 0;
+        }
+    }
+    printf("%d"arr[n-1]+1);
 }       
