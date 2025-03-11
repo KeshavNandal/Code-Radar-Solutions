@@ -16,7 +16,7 @@ int main()
             {
                 divi++;
             }
-            else 
+            else if(divi%arr[j]==0)
             {
                 count++;
                 break;
