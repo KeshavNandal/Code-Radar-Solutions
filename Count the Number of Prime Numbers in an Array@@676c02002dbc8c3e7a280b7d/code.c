@@ -12,11 +12,11 @@ int main()
     {
         while(divi<arr[j]/2)
         {
-            if(divi%arr[j]!=0)
+            if(arr[j]%divi!=0)
             {
                 divi++;
             }
-            else if(divi%arr[j]==0)
+            else if(arr[j]%divi==0)
             {
                 count++;
                 break;
