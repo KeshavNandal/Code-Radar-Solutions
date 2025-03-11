@@ -21,7 +21,12 @@ int main()
     }
     for(int l=0;l<n;l++)
     {
-        printf("%d ",arr[l]);
+        if(arr[l+1]==arr[l]+1)
+        {
+            cout++;
+        }
+
     }
+    printf("%d",cout);
     
 }
