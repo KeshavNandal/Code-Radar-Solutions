@@ -29,7 +29,9 @@ int main()
             return 0;
         }
         else
+        {
         num--;
+        }
     }
     printf("-1");
    
