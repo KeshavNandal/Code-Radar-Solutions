@@ -23,10 +23,10 @@ int main()
     {
         if(arr[l+1]==arr[l]+1)
         {
-            cout++;
+            count++;
         }
 
     }
-    printf("%d",cout);
+    printf("%d",count);
     
 }
