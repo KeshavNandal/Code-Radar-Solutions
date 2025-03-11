@@ -21,7 +21,7 @@ int main()
     }   
     for(int m=0;m<n;m++)
     {
-        if(arr[m==1])
+        if(arr[m]==1)
         {
             check =1;
         }
