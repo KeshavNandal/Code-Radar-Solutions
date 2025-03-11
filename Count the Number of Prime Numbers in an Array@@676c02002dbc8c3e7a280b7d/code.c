@@ -15,8 +15,9 @@ int main()
             if(divi%arr[j]==0)
             {
                 count++;
+                break;
             }
         }
     }
-    return count;
+    printf("%d",count);
 }
