@@ -22,12 +22,13 @@ int main()
         }
     }
     for(int k=0;k<n;k++)
-    {
+    {   if(n>1){
         if(arr[num]<arr[num+1])
         {
             printf("%d",arr[num]);
             return 0;
         }
+    }
         else
         {
         num--;
