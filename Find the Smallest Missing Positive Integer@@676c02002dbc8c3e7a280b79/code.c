@@ -33,7 +33,7 @@ int main()
                 continue;
             }
              else if(arr[l+1]>0){
-            printf("%d",arr[l+1]);
+            printf("%d",arr[l]+1);
             return 0;}
         }
     }
