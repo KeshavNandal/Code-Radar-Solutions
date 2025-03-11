@@ -27,7 +27,8 @@ int main()
         }
     }
     if(check!=1)
-    {printf("1");
+    {
+     printf("1");
      return 0;
     }
     for(int l=0;l<n;l++)
@@ -43,13 +44,19 @@ int main()
             {
                 continue;
             }
-             else if(arr[l+1]>0){
-            printf("%d",arr[l]+1);
-            return 0;}
+             else if(arr[l+1]>0)
+             {
+                printf("%d",arr[l]+1);
+                return 0;
+             }
         }
     }
     if(arr[n-1]>0)
-    printf("%d",arr[n-1]+1);
+    {
+        printf("%d",arr[n-1]+1);
+    }
     else
-    printf("1");
+    {
+        printf("1");
+    }
 }       
