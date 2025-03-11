@@ -1,27 +1,22 @@
 #include<stdio.h>
 int main()
 {
-    int n,count=0;
+    int n,count=0,divi=2;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
-    for(int j=0;j<n;j++)
+    for (int j=0;j<n;j++)
     {
-        if(arr[j]==2)
+        while(divi<arr[j]/2)
         {
-            count++;
-        }
-        for(int k=2;k<(arr[j])/2;k++)
-        {
-            if (arr[j]%k==0)
+            if(divi%arr[j]==0)
             {
                 count++;
-               
             }
         }
     }
-    printf("%d",n-count);
+    return count;
 }
