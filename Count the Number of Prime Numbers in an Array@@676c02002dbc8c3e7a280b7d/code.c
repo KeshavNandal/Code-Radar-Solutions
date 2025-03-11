@@ -10,7 +10,7 @@ int main()
     }
     for (int j=0;j<n;j++)
     {
-        while(divi<arr[j]/2)
+        while(divi<(arr[j]/2))
         {
             if(arr[j]%divi!=0)
             {
