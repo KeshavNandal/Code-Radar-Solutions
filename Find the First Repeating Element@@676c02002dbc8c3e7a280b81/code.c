@@ -20,10 +20,11 @@ int main()
             else 
             {end--;}
         }
-        if(num<check)
+         if(num<check)
         {
             check =num;
         }
+       
     }
     printf("%d",arr[check]);
 }
