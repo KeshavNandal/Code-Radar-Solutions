@@ -17,7 +17,8 @@ int main()
             {
                 num =end;
             }
-            else end--;
+            else 
+            {end--;}
         }
         if(num<check)
         {
