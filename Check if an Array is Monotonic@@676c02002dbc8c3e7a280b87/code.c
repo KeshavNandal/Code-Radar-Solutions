@@ -8,9 +8,9 @@ int main()
  {
     scanf("%d",&arr[i]);
  }
- for(int j =0; j<n-1 ; j++)
+ for(int j =0; j<n ; j++)
  {
-   if (arr[j]>=arr[j+1]&&arr[j]<n-1)
+   if (arr[j]>=arr[j+1]&&j<n-1)
    {
     check1 = 1;
    }
@@ -23,7 +23,7 @@ int main()
  }
  for(int j =0; j<n ; j++)
  {
-   if (arr[j]<=arr[j+1]&&arr[j]<n-1)
+   if (arr[j]<=arr[j+1]&&j<n-1)
    {
     check2 = 1;
    }
