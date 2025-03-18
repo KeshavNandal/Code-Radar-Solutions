@@ -32,7 +32,7 @@ int main()
     }
     if(hi=1)
     {
-        printf("%d",arr[check])
+        printf("%d",arr[check]);
     }
     else 
     {
