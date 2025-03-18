@@ -15,7 +15,7 @@ int main()
     }
     else if(n%2==0)
     {
-        count=(arr[n/2]+arr[(n/2)+1])/2;
+        count=(arr[n/2]+arr[(n/2)-1])/2;
         printf("%d",count);
     }
 
