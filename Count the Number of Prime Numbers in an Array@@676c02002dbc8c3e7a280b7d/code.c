@@ -12,7 +12,7 @@ int main()
     {
         int divi =2;
         int origin_val=arr[j];
-         if(arr[j]==2||arr[j==3])
+         if((arr[j]==2)||(arr[j==3]))
                 {
                  count++;
                 
