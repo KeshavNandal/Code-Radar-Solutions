@@ -11,7 +11,7 @@ int main()
     int max=arr[0];
     for(int j=0;j<n;j++)
     {
-        if (arr[j]<arr[j+1]&&j<n-1)
+        if (arr[j]>arr[j+1]&&j<n-1)
         {
             max=arr[j+1];
             check=j+1;
@@ -19,7 +19,7 @@ int main()
 
         }
     }
-    arr[check]=0;
+    arr[check]=INT_MAX;
     for(int j=0;j<n;j++)
     {
         if (arr[j]>arr[j+1]&&j<n-1)
