@@ -14,9 +14,12 @@ int main()
         int origin_val=arr[j];
         while(divi < (arr[j]/2))
             {
+                if(arr[j]==2)
+                {count++;
+                 break;
+                }
                 if(origin_val%divi==0)
                 {
-                    count++;
                     break;
                 }
                 else
