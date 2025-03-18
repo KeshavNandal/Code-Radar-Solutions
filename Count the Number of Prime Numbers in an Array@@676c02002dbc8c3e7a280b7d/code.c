@@ -12,13 +12,14 @@ int main()
     {
         int divi =2;
         int origin_val=arr[j];
-        while(divi <= (arr[j]/2))
-            {
-                if(arr[j]==2)
+         if(arr[j]==2||arr[j==3])
                 {
                  count++;
                 
                 }
+        while(divi <= (arr[j]/2))
+            {
+               
                 if(origin_val%divi==0)
                 {
                     break;
