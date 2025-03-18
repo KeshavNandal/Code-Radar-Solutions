@@ -5,7 +5,7 @@ int main()
  scanf("%d",&n);
  if(n==1)
  {
-    printf("1");
+    printf("NO");
     return 0;
  }
  int arr[n];
