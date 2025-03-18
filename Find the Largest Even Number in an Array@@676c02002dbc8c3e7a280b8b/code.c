@@ -17,5 +17,5 @@ int main()
         }           
 
     }
-    printf("%d",check);
+    printf("%d",arr[check]);
 }
