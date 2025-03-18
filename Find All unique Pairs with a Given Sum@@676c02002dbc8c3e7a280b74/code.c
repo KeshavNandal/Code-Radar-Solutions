@@ -9,6 +9,15 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
+    for(int l=0;l<n;l++)
+    {
+        if(arr[l]==arr[l+1])
+        {count=1;}
+        else{
+        count=0;
+        break;}
+    }
+    if(count==0){
     for(int j=0;j<n;j++)
     {   int end=n-1;
         for(int m=j+1 ;m<n;m++)
@@ -21,5 +30,8 @@ int main()
 
         }
     }
+    }
+    else
+    {printf("%d %d",arr[0],arr[1]);}
 
 }
