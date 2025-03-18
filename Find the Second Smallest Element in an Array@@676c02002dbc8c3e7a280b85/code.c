@@ -32,11 +32,11 @@ int main()
     }
     if(hi=1)
     {
-        pritnf("%d",arr[check])
+        printf("%d",arr[check])
     }
     else 
     {
-        pritnf("-1");
+        printf("-1");
     }
     
 
