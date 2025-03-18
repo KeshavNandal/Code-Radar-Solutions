@@ -12,7 +12,7 @@ int main()
     {
         for (int k=j+1;k<n;k++)
         {
-            if(arr[j]<=arr[k])
+            if(arr[j+1]<=arr[k])
             {
                 max=arr[k];
             }
