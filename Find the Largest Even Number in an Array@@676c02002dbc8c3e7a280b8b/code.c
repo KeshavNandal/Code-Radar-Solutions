@@ -11,7 +11,7 @@ int main()
     int check=arr[0];
     for(int j = 0; j<n ; j++)
     {
-        if(arr[j]<check && arr[j]%2==0)
+        if(arr[j]>check && arr[j]%2==0)
         {
             check=j;
         }           
