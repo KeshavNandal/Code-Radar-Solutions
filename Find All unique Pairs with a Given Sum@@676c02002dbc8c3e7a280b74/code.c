@@ -9,6 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
+    printf("%d/n",k);
     for(int j=0;j<n;j++)
     {   int end=n-1;
         for(int k=j+1 ;k<n;k++)
