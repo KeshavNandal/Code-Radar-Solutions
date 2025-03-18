@@ -12,7 +12,7 @@ int main()
     {
         int orgin_value =arr[j];
         int reman=0,divi=0
-        for (int k=0;k<n;k++)
+        for(int k=0;k<n;k++)
         {
             divi=orgin_value%10;
             reman=reman*10+divi;
