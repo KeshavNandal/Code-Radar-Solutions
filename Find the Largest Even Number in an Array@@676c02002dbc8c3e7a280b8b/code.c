@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int k=0 ; k<n ; k++)
+    for(int k=0 ; k<n-1 ; k++)
     {
         if(arr[k]<arr[k+1]&&arr[k+1]%2==0)
         {
