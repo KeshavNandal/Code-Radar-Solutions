@@ -19,7 +19,7 @@ int main()
 
         }
     }
-    arr[check]=INT_MAX;
+    arr[check]=1000;
     for(int j=0;j<n;j++)
     {
         if (arr[j]>arr[j+1]&&j<n-1)
