@@ -8,6 +8,8 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    if(arr[0]%2==0)
+    {count=arr[0];}
     for(int k=0 ; k<n-1 ; k++)
     {
         if(arr[k]<arr[k+1]&&arr[k+1]%2==0)
