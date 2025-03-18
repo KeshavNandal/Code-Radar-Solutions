@@ -1,27 +1,31 @@
 #include<stdio.h>
 int main()
 {
-    int n,count=0;
+    int n;
     scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++)
+    int arr[n], count = 0;
+    for(int i = 0; i<n; i++)
     {
         scanf("%d",&arr[i]);
     }
-    for (int j=0;j<n;j++)
-    { int divi=2;
-        while(divi<(arr[j]/2))
-        {
-            if(arr[j]%divi!=0)
+    for(int j = 0; j<n ;j++)
+    {
+        int divi =2;
+        int origin_val=arr[j];
+        while(divi < (arr[j]/2))
             {
-                divi++;
+                if(origin_val%divi==0)
+                {
+                    count++;
+                    break;
+                }
+                else
+                {
+                    divi++;
+
+                }
+                
             }
-            else if(arr[j]%divi==0)
-            {
-                count++;
-                break;
-            }
-        }
     }
     printf("%d",count);
 }
