@@ -13,7 +13,7 @@ int main()
     {   int end=n-1;
         for(int k=j+1 ;k<n;k++)
         {  
-            if(arr[j]+arr[end]==k)
+            if((arr[j]+arr[end])==k)
             {
                 printf("%d %d",arr[j],arr[end]);
             }
