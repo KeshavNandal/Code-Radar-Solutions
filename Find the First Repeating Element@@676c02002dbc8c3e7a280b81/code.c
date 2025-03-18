@@ -16,10 +16,10 @@ int main()
             if(arr[j]==arr[k])
             {
                 value=arr[j];
-                bool check=true;
+               int check =1;
             }
         }
-        if(check==true)
+        if(check==1)
         {
             break;
         }
