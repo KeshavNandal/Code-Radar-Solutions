@@ -16,8 +16,12 @@ int main()
             if(arr[j]==arr[k])
             {
                 value=arr[j];
-                break;
+                bool check=true;
             }
+        }
+        if(check==true)
+        {
+            break;
         }
     }
     printf("%d",value);
