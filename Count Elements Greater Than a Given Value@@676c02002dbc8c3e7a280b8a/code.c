@@ -10,7 +10,7 @@ int main()
     }
     for(int j = 0; j < n ;j++)
     {
-        if(k>arr[j])
+        if(arr[j]>k)
         {
             count++;
         }
