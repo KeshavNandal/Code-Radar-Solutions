@@ -19,7 +19,7 @@ int main()
         }
         arr[j]=max;
     }
-    arr[n-1]=-1;
+    // arr[n-1]=-1;
     for(int k=0;k<n;k++)
     {
         printf("%d ",arr[k]);
