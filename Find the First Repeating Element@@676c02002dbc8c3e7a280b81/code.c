@@ -1,30 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int n,start =0,num,check=1000;
+    int n ;
     scanf("%d",&n);
-    int arr[n];
-    for(int i = 0; i < n; i++)
+    int arr[n],value=-1,num=0;
+    for(int i=0 ; i<n ;i++)
     {
-        scanf("%d",&arr[i]);
+      scanf("%d",&arr[i]);
     }
-    for(int j = 0; j < n; j++)
+    for(int j=0;j<n ;j++)
     {
-        int end = n-1;
-        for(int k=0;k<n;k++)
+        
+        for(int k=j+1; k < n ;k++)
         {
-            if(arr[k]==arr[end])
+            if(arr[j]==arr[k])
             {
-                num =end;
+                value=j;
             }
-            else 
-            {end--;}
         }
-         if(num<check)
-        {
-            check =num;
-        }
-       
     }
-    printf("%d",arr[check]);
+    printf("%d",arr[value]);
+
+
 }
