@@ -15,11 +15,11 @@ int main()
         {
             if(arr[j]==arr[k])
             {
-                value=j;
+                value=arr[j];
             }
         }
     }
-    printf("%d",arr[value]);
+    printf("%d",avalue);
 
 
 }
