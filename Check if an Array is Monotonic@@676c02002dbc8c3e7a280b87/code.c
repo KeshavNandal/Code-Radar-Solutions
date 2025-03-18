@@ -14,7 +14,7 @@ int main()
    {
     check1 = 1;
    }
-   else
+   else if(arr[j]<=arr[j+1]&&j<n-1)
     {
         check1=0;
         break;
@@ -27,7 +27,7 @@ int main()
    {
     check2 = 1;
    }
-   else
+   else if(arr[j]>=arr[j+1]&&j<n-1)
     {
         check2=0;
         break;
