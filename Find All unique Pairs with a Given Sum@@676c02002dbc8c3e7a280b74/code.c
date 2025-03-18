@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    for(int l=0;l<n;l++)
+    for(int l=0;l<n-1;l++)
     {
         if(arr[l]==arr[l+1])
         {count=1;}
