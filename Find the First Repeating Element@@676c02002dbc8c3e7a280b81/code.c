@@ -19,7 +19,7 @@ int main()
             }
         }
     }
-    printf("%d",avalue);
+    printf("%d",value);
 
 
 }
