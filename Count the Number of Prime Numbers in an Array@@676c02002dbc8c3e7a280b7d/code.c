@@ -26,7 +26,7 @@ int main()
                 }
                 
             }
-            if(divi>arr[j]/2)
+            if(divi>arr[j]/2 &&arr[j]>1)
             {count++;}
     }
     printf("%d",count);
