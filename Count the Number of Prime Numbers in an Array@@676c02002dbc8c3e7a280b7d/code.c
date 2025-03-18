@@ -20,7 +20,7 @@ int main()
         while(divi <= (arr[j]/2))
             {
                
-                if(origin_val%divi==0)
+                if(arr[j]%divi==0)
                 {
                     break;
                 }
@@ -31,6 +31,8 @@ int main()
                 }
                 
             }
+            if(divi>arr[j]/2)
+            {count++;}
     }
     printf("%d",count);
 }
