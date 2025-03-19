@@ -28,5 +28,6 @@ int main()
     count1=arr[k];
     count2=arr[end];
    }
+   printf("%d",arr[k],arr[end])
     
 }
