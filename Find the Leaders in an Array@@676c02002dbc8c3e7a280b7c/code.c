@@ -11,9 +11,9 @@ int main()
     for(int j=0;j<n;j++)
     {
         int count =0;
-        for(int k=1;k<n;k++)
+        for(int k=j+1;k<n;k++)
         {
-            if(arr[j]>arr[k])
+            if(arr[j]>=arr[k])
             {count=arr[j];}
             else
             {count=0;
@@ -22,7 +22,7 @@ int main()
         }
         if(count!=0)
         {
-            printf("%d",count);
+            printf("%d ",count);
         }
     }
     printf("%d",arr[n-1]);
