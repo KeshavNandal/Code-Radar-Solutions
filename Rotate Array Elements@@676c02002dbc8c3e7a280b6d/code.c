@@ -1,5 +1,5 @@
 #include<stdio.h>
-int rotatearr(int n,int arr[],int k,int start,int end)
+void rotatearr(int n,int arr[],int k,int start,int end)
 {
     if(n == 1) return;
      while(start < end)
