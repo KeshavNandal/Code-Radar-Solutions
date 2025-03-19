@@ -10,7 +10,7 @@ int main()
     }
     for(int j=0;j<n;j++)
     {
-        for(int k=j+1;k<n;k++)
+        for(int k=j+1;k<n-1;k++)
         { if(arr[j]<arr[k+1])
         {
            int temp =arr[j];
