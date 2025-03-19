@@ -18,7 +18,7 @@ int main()
              {
                 check=arr[j];
                 if(i!=j){
-                arr1[j]=-1;
+                arr1[j]=-1;}
                 count++;
              }
             }
