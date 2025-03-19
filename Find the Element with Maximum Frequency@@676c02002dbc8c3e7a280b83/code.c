@@ -12,7 +12,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            if(arr1[j]==-1)
+            if(arr1[j]>-1)
             {
              if(arr[i]==arr[j])
              {
