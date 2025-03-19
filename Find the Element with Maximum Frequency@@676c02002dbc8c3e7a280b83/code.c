@@ -12,7 +12,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            if(arr1[j]>-1)
+            if(arr1[j]!=-1)
             {
              if(arr[i]==arr[j])
              {
@@ -20,13 +20,14 @@ int main()
                 count++;
              }
             }
-            if(count>prev)
+           
+        }
+         if(count>prev)
             {prev=arr[i];
              count=0;
             }
             else 
             {count=0;}
-        }
     }
     printf("%d",prev);
 }
