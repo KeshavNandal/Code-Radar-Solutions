@@ -20,14 +20,7 @@ int main()
             
         }
     }
-    int end=n-1;
-   for(int k =1;k<n;k++)
-   {
-    if(arr[k]-arr[end]<min)
-    min=arr[k]-arr[end];
-    count1=arr[k];
-    count2=arr[end];
-   }
+
    printf("%d %d",count1,count2);
     
 }
