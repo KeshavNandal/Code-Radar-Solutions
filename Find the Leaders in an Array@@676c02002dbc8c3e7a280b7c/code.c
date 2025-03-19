@@ -16,7 +16,9 @@ int main()
             if(arr[j]>arr[k])
             {count=arr[j];}
             else
-            {count=0;}
+            {count=0;
+             break;
+            }
         }
         if(count!=0)
         {
