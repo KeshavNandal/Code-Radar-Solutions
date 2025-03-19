@@ -16,7 +16,7 @@ int main()
     for(int j=0;j<n;j++)
     {
         int end=j+1;
-        for(int k=1;k<n;k++)
+        for(int k=j+1;k<n;k++)
         {
             if(arr[j]-arr[k]<min&&arr[j]>arr[k])
             {
