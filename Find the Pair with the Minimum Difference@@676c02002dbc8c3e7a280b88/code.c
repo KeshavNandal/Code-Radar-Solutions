@@ -20,14 +20,14 @@ int main()
         {
             if(arr[j]-arr[k]<min)
             {
-                if(arr[j]>arr[k])
-                {
+                // if(arr[j]>arr[k])
+                // {
                 min=arr[j]-arr[k];
-                }
-                if(arr[j]<arr[k])
-                {
-                min=arr[k]-arr[j];
-                }
+                // }
+                // if(arr[j]<arr[k])
+                // {
+                // min=arr[k]-arr[j];
+                // }
 
                 count1=arr[j];
                 count2=arr[k];
