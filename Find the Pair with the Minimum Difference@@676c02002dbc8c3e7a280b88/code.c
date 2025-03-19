@@ -29,5 +29,5 @@ int main()
             }
         }
     }
-    printf("%d %d",count1,count2);
+    printf("%d %d",count2,count1);
 }
