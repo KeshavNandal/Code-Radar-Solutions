@@ -20,18 +20,22 @@ int main()
             }
         }
     }
-    int end=n-1;
-    for(int k=1;k<n;k++)
+    for(int k=0;k<n;k++)
     {
-        if(arr[end]!=arr[end-1])
-        {
-            printf("%d",arr[end-1]);
-            return 0;
-        }
-        else if((arr[end]==arr[end-1]))
-        {
-            end--;
-        }
+        printf("%d ",arr[k]);
     }
-    printf("-1");
+    // int end=n-1;
+    // for(int k=1;k<n;k++)
+    // {
+    //     if(arr[end]!=arr[end-1])
+    //     {
+    //         printf("%d",arr[end-1]);
+    //         return 0;
+    //     }
+    //     else if((arr[end]==arr[end-1]))
+    //     {
+    //         end--;
+    //     }
+    // }
+    // printf("-1");
 }
