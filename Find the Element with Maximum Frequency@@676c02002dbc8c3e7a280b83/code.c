@@ -10,14 +10,15 @@ int main()
     }
     for(int i = 0; i < n; i++)
     {
-        for(int j=1;j<n;j++)
+        for(int j=0;j<n;j++)
         {
             if(arr1[j]!=-1)
             {
              if(arr[i]==arr[j])
              {
                 check=arr[i];
-                arr1[j]=-1;
+                if(i!=j){
+                arr1[j]=-1;}
                 count++;
              }
             }
