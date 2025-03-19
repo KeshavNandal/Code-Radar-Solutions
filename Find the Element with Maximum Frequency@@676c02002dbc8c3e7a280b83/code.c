@@ -24,7 +24,7 @@ int main()
            
         }
          if(count>prev)
-            {prev=arr[check];
+            {prev=check;
              count=0;
             }
             else 
