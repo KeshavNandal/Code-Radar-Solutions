@@ -21,7 +21,7 @@ int main()
              }
             }
             if(count>prev)
-            {prev=count;}
+            {prev=arr[j];}
             else 
             {count=0;}
         }
