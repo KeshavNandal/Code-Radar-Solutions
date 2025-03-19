@@ -31,9 +31,9 @@ int main()
 
                 count1=arr[j];
                 count2=arr[k];
-                end++;
-            }
+                
         }
     }
+    
     printf("%d %d",count2,count1);
 }
