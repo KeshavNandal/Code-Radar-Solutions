@@ -1,45 +1,37 @@
 #include<stdio.h>
 int main()
 {
-    int n,check=0,hi;
+    int n;
     scanf("%d",&n);
     int arr[n];
-    for (int i=0 ;i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",arr[i]);
     }
-    int max=arr[0];
     for(int j=0;j<n;j++)
     {
-        if (arr[j]>arr[j+1]&&j<n-1)
+        for(int k=j+1;k<n;k++)
         {
-            max=arr[j+1];
-            check=j+1;
-            hi=1;
-
+            if(arr[j]>arr[k])
+            {
+                int temp=arr[j];
+                arr[j]=arr[k];
+                arr[k]=temp;
+            }
         }
     }
-    arr[check]=1000;
-    for(int j=0;j<n;j++)
+    int end=n-1;
+    for(int k=0;k<n;k++)
     {
-        if (arr[j]>arr[j+1])
+        if(arr[end]!=arr[end-1])
         {
-            max=arr[j+1];
-            check=j+1;
-
-
+            printf("%d",arr[end-1]);
+            return 0;
+        }
+        else if(if(arr[end]==arr[end-1]))
+        {
+            end--;
         }
     }
-    if(hi==1)
-    {
-        printf("%d",arr[check]);
-    }
-    else 
-    {
-        printf("-1");
-    }
-    
-
-
-
+    printf("-1");
 }
