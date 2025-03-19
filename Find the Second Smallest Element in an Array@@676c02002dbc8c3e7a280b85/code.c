@@ -23,7 +23,7 @@ int main()
     int end=0;
     for(int k=1;k<n;k++)
     {
-        if(arr[end]!=arr[end-1])
+        if(arr[end]!=arr[end+1])
         {
             printf("%d",arr[end+1]);
             return 0;
