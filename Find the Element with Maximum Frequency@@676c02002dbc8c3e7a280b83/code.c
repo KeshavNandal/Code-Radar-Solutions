@@ -3,26 +3,29 @@ int main()
 {
     int n,count =0,prev=0;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],arr1[n]{0};
     for(int i =0 ; i<n ; i++)
     {
         scanf("%d",&arr[i]);
     }
     for(int i = 0; i < n; i++)
     {
-        for(int k=0;k<n;k++)
+        for(int j=1;j<n;j++)
         {
-            if(arr[i]==arr[k])
+            if(arr1[j]!=-1)
             {
+             if(arr[i]==arr[j])
+             {
+                arr1[j]=-1;
                 count++;
+             }
             }
+            if(count>prev)
+            {prev=count;}
+            else 
+            {count=0;}
         }
-        if(count>prev)
-        {
-            prev =count;
-        }
-        else 
-        {count =0;}
+        
     }
-    printf("%d",count);
+    printf("%d",prev);
 }
