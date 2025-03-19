@@ -11,10 +11,12 @@ int main()
     for(int j=0;j<n;j++)
     {
         for(int k=0;k<n;k++)
-        { if(arr[j]<arr[k+1]){
+        { if(arr[j]<arr[k+1])
+        {
            int temp =arr[j];
            arr[j]=arr[k+1];
-           arr[k+1]=temp; }
+           arr[k+1]=temp; 
+        }
             
         }
     }
@@ -23,5 +25,4 @@ int main()
         printf("%d ",arr[i]);
     }
     
-    printf("%d %d",count2,count1);
 }
