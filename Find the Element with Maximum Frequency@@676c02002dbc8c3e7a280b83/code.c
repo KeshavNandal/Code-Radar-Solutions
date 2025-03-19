@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,count =0,prev=0;
+    int n,count =0,prev=0,check=0;
     scanf("%d",&n);
     int arr[n],arr1[n];
     for(int i =0 ; i<n ; i++)
@@ -16,6 +16,7 @@ int main()
             {
              if(arr[i]==arr[j])
              {
+                check=arr[j];
                 arr1[i]=-1;
                 count++;
              }
