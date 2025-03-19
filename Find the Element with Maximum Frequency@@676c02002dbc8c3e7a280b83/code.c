@@ -16,8 +16,8 @@ int main()
             {
              if(arr[i]==arr[j])
              {
-                check=arr[i];
-                
+                check=arr[j];
+                if(i!=j){
                 arr1[j]=-1;
                 count++;
              }
