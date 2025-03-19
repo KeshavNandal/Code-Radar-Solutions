@@ -15,24 +15,17 @@ int main()
     }
     for(int j=0;j<n;j++)
     {
-        int end=j+1;
         for(int k=0;k<n;k++)
-        {
-            if(arr[j]-arr[k]<min && arr[j]>arr[k] &&j!=k)
-            {
-                
-                min=arr[k]-arr[j];
+        { if(arr[j]<arr[k+1])
+           int temp =arr[j];
+           arr[j]=arr[k+1];
+           arr[k+1]=temp; 
             
-            }
-                if(arr[j]-arr[k]<min && arr[j]<arr[k] &&j!=k)
-                 {
-                 min=arr[j]-arr[k];
-                 }
-
-                count1=arr[j];
-                count2=arr[k];
-                
         }
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("%d ",arr[i])
     }
     
     printf("%d %d",count2,count1);
