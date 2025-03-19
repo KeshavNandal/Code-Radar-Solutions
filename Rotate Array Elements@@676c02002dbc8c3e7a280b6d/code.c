@@ -12,8 +12,9 @@ void rotatearr(int arr[],int start,int end)
 }
 int main()
 {
-    int n,k, end=n-1;
+    int n,k;
     scanf("%d",&n);
+    int end = n - 1;
     int arr[n];
     for(int i=0 ; i<n ; i++)
     {
