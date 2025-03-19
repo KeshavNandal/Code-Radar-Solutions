@@ -15,7 +15,15 @@ int main()
         {
             if(arr[j]-arr[end]<min)
             {
+                if(arr[j]>arr[end])
+                {
                 min=arr[j]-arr[end];
+                }
+                if(arr[j]<arr[end])
+                {
+                min=arr[end]-arr[j];
+                }
+
                 count1=arr[j];
                 count2=arr[end];
             }
