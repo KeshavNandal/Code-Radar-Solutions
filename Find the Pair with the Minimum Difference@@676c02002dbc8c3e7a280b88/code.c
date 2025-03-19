@@ -18,13 +18,13 @@ int main()
         int end=j+1;
         for(int k=j+1;k<n;k++)
         {
-            if(arr[j]-arr[k]<min && arr[j]>arr[k])
+            if(arr[j]-arr[k]<min && arr[j]>arr[k] &&j!=k)
             {
                 
                 min=arr[k]-arr[j];
             
             }
-                if(arr[j]-arr[k]<min && arr[j]<arr[k])
+                if(arr[j]-arr[k]<min && arr[j]<arr[k]&&j!=k)
                  {
                  min=arr[j]-arr[k];
                  }
