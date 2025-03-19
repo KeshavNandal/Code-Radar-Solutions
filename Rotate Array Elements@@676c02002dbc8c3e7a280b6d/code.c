@@ -19,6 +19,15 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    scanf("%d", &k);
+
+    rotatearr(n, arr, k, start, end);
+    rotatearr(n, arr, k, start, k - 1);
+    rotatearr(n, arr, k, k, end);
    
+    for(int i = 0; i < n; i++)
+    {
+        printf("%d", arr[i]);
+    }
 
 }
