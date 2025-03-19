@@ -15,7 +15,7 @@ int main()
     }
     for(int j=0;j<n;j++)
     {
-        int end=n-1;
+        int end=1;
         for(int k=j+1;k<n;k++)
         {
             if(arr[j]-arr[end]<min)
@@ -31,7 +31,7 @@ int main()
 
                 count1=arr[j];
                 count2=arr[end];
-                end--;
+                end++;
             }
         }
     }
