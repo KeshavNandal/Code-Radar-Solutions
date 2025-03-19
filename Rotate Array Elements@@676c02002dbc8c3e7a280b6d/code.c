@@ -1,7 +1,8 @@
 #include<stdio.h>
 int rotatearr(int n,int arr[],int k,int start,int end)
 {
-     while(start<=end)
+    if(n == 1) return;
+     while(start < end)
     {
         int temp=arr[start];
         arr[start]=arr[end];
@@ -20,7 +21,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d", &k);
-
+    k = k %n;
     rotatearr(n, arr, k, start, end);
     rotatearr(n, arr, k, start, k - 1);
     rotatearr(n, arr, k, k, end);
