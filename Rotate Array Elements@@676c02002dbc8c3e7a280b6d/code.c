@@ -22,8 +22,8 @@ int main()
     }
     scanf("%d", &k);
     k = k %n;
-    rotatearr(n, arr, k, start, end);
-    rotatearr(n, arr, k, start, k - 1);
+    rotatearr(n, arr, k, start, n - 1);
+    rotatearr(n, arr, k, 0, k - 1);
     rotatearr(n, arr, k, k, end);
    
     for(int i = 0; i < n; i++)
