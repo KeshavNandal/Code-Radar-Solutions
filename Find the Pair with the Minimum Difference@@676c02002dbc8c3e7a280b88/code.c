@@ -10,12 +10,12 @@ int main()
     }
     for(int j=0;j<n;j++)
     {
-        for(int k=0;k<n-1;k++)
-        { if(arr[j]<arr[k+1])
+        for(int k=j+1;k<n;k++)
+        { if(arr[j]<arr[k])
         {
            int temp =arr[j];
-           arr[j]=arr[k+1];
-           arr[k+1]=temp; 
+           arr[j]=arr[k];
+           arr[k]=temp; 
         }
             
         }
