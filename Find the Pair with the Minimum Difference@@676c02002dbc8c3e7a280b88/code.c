@@ -31,6 +31,7 @@ int main()
 
                 count1=arr[j];
                 count2=arr[end];
+                end--;
             }
         }
     }
