@@ -2,6 +2,7 @@
 int main()
 {
     int n,prev=0,check=0;
+    int max_count = 0;
     scanf("%d",&n);
     int arr[n],arr1[n];
     for(int i =0 ; i<n ; i++)
@@ -16,15 +17,16 @@ int main()
             {
              if(arr[i]==arr[j])
              {
-                check=arr[i];
-                arr1[j]=-1;
+
                 count++;
              }
             }
            
         }
-         if(count>prev)
-            {prev=arr[i];
+         if(count>max_count)
+            {
+                max_count=count;
+                prev=arr[i];
              
             }
             
