@@ -23,7 +23,7 @@ int main()
            
         }
          if(count>prev)
-            {prev=arr[i];
+            {prev=arr[j];
              count=0;
             }
             else 
