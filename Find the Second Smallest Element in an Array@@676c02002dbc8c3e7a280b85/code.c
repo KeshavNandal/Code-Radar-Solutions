@@ -28,7 +28,7 @@ int main()
             printf("%d",arr[end-1]);
             return 0;
         }
-        else if(if(arr[end]==arr[end-1]))
+        else if((arr[end]==arr[end-1]))
         {
             end--;
         }
