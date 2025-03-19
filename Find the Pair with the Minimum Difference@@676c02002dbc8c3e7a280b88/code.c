@@ -24,7 +24,7 @@ int main()
                 min=arr[k]-arr[j];
             
             }
-                if(arr[j]-arr[k]<min && arr[j]<arr[k]&&j!=k)
+                if(arr[j]-arr[k]<min && arr[j]<arr[k] &&j!=k)
                  {
                  min=arr[j]-arr[k];
                  }
