@@ -21,7 +21,7 @@ int main()
         }
     }
     int end=n-1;
-    for(int k=0;k<n;k++)
+    for(int k=1;k<n;k++)
     {
         if(arr[end]!=arr[end-1])
         {
