@@ -1,27 +1,35 @@
 #include<stdio.h>
+void rotatearr(int arr[],int start,int end)
+{
+     while(start < end)
+    {
+        int temp=arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
+        start++;
+        end--;
+    }
+}
 int main()
 {
-    int n,m;
+    int n,k;
     scanf("%d",&n);
-    int arr[n],arr1[n];
-    for(int i=0;i<n;i++)
+    int end = n - 1;
+    int arr[n];
+    for(int i=0 ; i<n ; i++)
     {
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&m);
-    for(int j=0;j<n;j++)
+    scanf("%d", &k);
+    k = k %n;
+    rotatearr(arr, 0, end);
+    rotatearr(arr, 0, k - 1);
+    rotatearr(arr, k, end);
+   
+    for(int i = 0; i < n; i++)
     {
-        if((j+m)<n)
-        {
-            arr1[j+m]=arr[j];
-        }
-        else if((j+m)>n)
-        {
-            arr1[j+m-n]=arr[j];
-        }
+        printf("%d ",arr[i]);
+
     }
-    for(int k=0;k<n;k++)
-    {
-        printf("%d ",arr1[k]);
-    }
+
 }
