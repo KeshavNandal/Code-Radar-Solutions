@@ -12,7 +12,7 @@ int bubbleSort(int arr[],int n)
             }
         }
     }
-    return arr[];
+    return arr[n];
 }
 void printArray(int arr[],int n)
 {
