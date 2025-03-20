@@ -22,7 +22,7 @@ int main()
         }
     }
 
-    for(int k=0;k<end+1;k++)
+    for(int k=0;k<=end;k++)
     {
         if(arr[k]==0)
         {
