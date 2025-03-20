@@ -8,14 +8,16 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int j=0;j<n;j++)
+   for(int j=0;j<n;j++)
     {
-        if (arr[j] ==0)
+        for(int k=j+1;k<n;k++)
         {
-            int temp =arr[j];
-            arr[j] =arr[end];
-            arr[end] = temp;
-            end--;
+            if(arr[j]>arr[k])
+            {
+                int temp=arr[j];
+                arr[j]=arr[k];
+                arr[k]=temp;
+            }
         }
     }
     for(int k=0;k<n;k++)
