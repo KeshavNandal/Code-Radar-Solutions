@@ -21,7 +21,14 @@ int main()
             }
         }
     }
-    for(int k=0;k<n;k++)
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==0)
+        {
+            count++;
+        }
+    }
+    for(int k=0;k<n-count;k++)
     {
         if(arr[k]==0)
         {
