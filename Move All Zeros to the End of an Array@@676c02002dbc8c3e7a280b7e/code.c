@@ -39,9 +39,9 @@ int main()
             count++;
         }
     }
-      for(int j=0;j<n;j++)
+      for(int j=0;j<n-count;j++)
     {
-        for(int k=j+1;k<n;k++)
+        for(int k=j+1;k<n-count;k++)
         {
             if(arr[j]>arr[k])
             {
