@@ -13,7 +13,7 @@ int main()
     {
         for(int k=j+1;k<n;k++)
         {
-            if(arr[j]>arr[k])
+            if(arr[j]>arr[k]&& arr[k]!=0)
             {
                 int temp=arr[j];
                 arr[j]=arr[k];
