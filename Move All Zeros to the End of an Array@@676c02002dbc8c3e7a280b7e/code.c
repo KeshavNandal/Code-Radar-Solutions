@@ -39,18 +39,7 @@ int main()
             count++;
         }
     }
-      for(int j=0;j<n-count;j++)
-    {
-        for(int k=j+1;k<n-count;k++)
-        {
-            if(arr[j]>arr[k])
-            {
-                int temp=arr[j];
-                arr[j]=arr[k];
-                arr[k]=temp;
-            }
-        }
-    }
+  
     
     for(int k=0;k<n;k++)
     {
