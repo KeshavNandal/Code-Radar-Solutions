@@ -22,6 +22,30 @@ int main()
     }
     for(int k=0;k<n;k++)
     {
+        if(arr[k]==0)
+        {
+            int temp=arr[k];
+            arr[k]=arr[end];
+            arr[end]=temp;
+            end--;
+            count++;
+        }
+    }
+      for(int j=0;j<n-count;j++)
+    {
+        for(int k=j+1;k<n-count;k++)
+        {
+            if(arr[j]>arr[k])
+            {
+                int temp=arr[j];
+                arr[j]=arr[k];
+                arr[k]=temp;
+            }
+        }
+    }
+    
+    for(int k=0;k<n;k++)
+    {
         printf("%d ",arr[k]);
     }
     
