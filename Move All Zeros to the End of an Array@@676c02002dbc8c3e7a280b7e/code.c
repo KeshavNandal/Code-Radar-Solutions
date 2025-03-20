@@ -20,17 +20,17 @@ int main()
             }
         }
     }
-    for(int k=0;k<n;k++)
-    {
-        if(arr[k]==0)
-        {
-            int temp=arr[k];
-            arr[k]=arr[end];
-            arr[end]=temp;
-            end--;
-            count++;
-        }
-    }
+    // for(int k=0;k<n;k++)
+    // {
+    //     if(arr[k]==0)
+    //     {
+    //         int temp=arr[k];
+    //         arr[k]=arr[end];
+    //         arr[end]=temp;
+    //         end--;
+    //         count++;
+    //     }
+    // }
     //   for(int j=0;j<n;j++)
     // {
     //     for(int k=j+1;k<n;k++)
