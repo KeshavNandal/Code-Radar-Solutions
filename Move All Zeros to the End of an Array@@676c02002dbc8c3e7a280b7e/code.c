@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,count=0,end=n-1;
+    int n,count=0;
     scanf("%d",&n);
+    int end=n-1;
     int arr[n];
     for(int i=0;i<n;i++)
     {
@@ -20,17 +21,17 @@ int main()
             }
         }
     }
-    // for(int k=0;k<n;k++)
-    // {
-    //     if(arr[k]==0)
-    //     {
-    //         int temp=arr[k];
-    //         arr[k]=arr[end];
-    //         arr[end]=temp;
-    //         end--;
-    //         count++;
-    //     }
-    // }
+    for(int k=0;k<n;k++)
+    {
+        if(arr[k]==0)
+        {
+            int temp=arr[k];
+            arr[k]=arr[end];
+            arr[end]=temp;
+            end--;
+            count++;
+        }
+    }
     //   for(int j=0;j<n;j++)
     // {
     //     for(int k=j+1;k<n;k++)
