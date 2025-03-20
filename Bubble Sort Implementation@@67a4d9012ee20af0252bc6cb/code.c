@@ -12,4 +12,9 @@ int bubblesort(int arr,int n)
             }
         }
     }
+    return arr;
+}
+void printarray(int arr,int n)
+{
+    
 }
